@@ -182,5 +182,5 @@ Cuanto más concreto, antes se arregla: qué hiciste, qué esperabas y qué pas�
 ---
 
 <div align="center">
-<sub>Hecho por <a href="https://thorly.dev">Thorly</a> · © 2026 Thorly. Todos los derechos reservados.</sub>
+<sub>Hecho por <a href="https://github.com/DavidZx3">David.Zx3</a> · © 2026 David.Zx3. Todos los derechos reservados.</sub>
 </div>
