@@ -10,7 +10,7 @@ Lo que viene en Mind. El orden puede cambiar según lo que pidáis en los [issue
 
 ## Más adelante
 
-- [ ] Más conexiones en la tienda: Google Drive, Notion import, Slack, Trello y calendario.
+- [ ] Más conexiones en la tienda: Google Drive, Slack, Trello y calendario.
 - [ ] Compartir páginas con el equipo y editarlas a la vez.
 - [ ] Bóveda compartida para un equipo (sin que el servidor pueda leerla).
 - [ ] Recordatorios y fechas en las tareas del tablero.
