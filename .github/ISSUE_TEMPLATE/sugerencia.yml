@@ -1,0 +1,28 @@
+name: 💡 Tengo una idea
+description: Propón una función o una mejora para Mind.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué te gustaría poder hacer?
+      description: Cuéntalo como lo harías tú, sin preocuparte de cómo se programa.
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: ¿Para qué lo usarías?
+      description: Un ejemplo de tu día a día ayuda mucho a entenderlo.
+  - type: dropdown
+    id: area
+    attributes:
+      label: ¿De qué parte de Mind?
+      options:
+        - Editor y páginas
+        - Bóveda
+        - Tablero de Equipo
+        - IA de Thorly
+        - Conversor
+        - Tienda
+        - Otra

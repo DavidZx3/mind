@@ -1,0 +1,55 @@
+name: 🐞 Algo no funciona
+description: Cuéntanos un fallo de Mind para arreglarlo.
+labels: ["fallo"]
+body:
+  - type: markdown
+    attributes:
+      value: Gracias por avisar. Cuanto más concreto, antes se arregla. **No pegues contraseñas ni datos privados.**
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Mind
+      description: Está en Configuración → Actualizaciones.
+      placeholder: "0.9.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: ¿Dónde pasa?
+      options:
+        - Editor y páginas
+        - Bóveda
+        - Tablero de Equipo
+        - IA de Thorly
+        - Conversor
+        - Tienda
+        - Sincronización / Nube
+        - Instalar o actualizar
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Qué hiciste
+      description: Los pasos para que vuelva a pasar.
+      placeholder: "1. Abrí…\n2. Pulsé…\n3. …"
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas y qué pasó
+    validations:
+      required: true
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura o mensaje de error
+      description: Arrastra aquí una captura si la tienes.
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      placeholder: "Windows 11 24H2"
